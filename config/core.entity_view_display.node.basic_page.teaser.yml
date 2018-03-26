@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.basic_page.body
+    - field.field.node.basic_page.field_image_browser
+    - field.field.node.basic_page.field_paragraphs
+    - field.field.node.basic_page.field_tags
     - field.field.node.basic_page.field_teaser
     - node.type.basic_page
   module:
@@ -17,11 +20,19 @@ targetEntityType: node
 bundle: basic_page
 mode: teaser
 content:
+  field_tags:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
   field_teaser:
     type: text_default
     weight: 1
     region: content
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
   links:
@@ -31,4 +42,5 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_image_browser: true
   field_paragraphs: true
