@@ -66,6 +66,8 @@
         "drupal/field_group": "1.0.0",
         "drupal/linkit": "^5.0@beta",
         "drupal/media_entity": "^2",
+        "drupal/media_entity_actions": "^1",
+        "drupal/media_entity_generic": "^1",
         "drupal/module_filter": "3.1.0",
         "drupal/override_node_options": "^2.1",
         "drupal/paragraphs": "^1.1",
