@@ -1,0 +1,9 @@
+uuid: 53fd0127-798f-40b9-a22f-e519bb807126
+langcode: en
+status: true
+dependencies: {  }
+name: 'People: Preset filters'
+vid: person_groupings
+description: 'For example: Staff, Advisory board, Fellows'
+hierarchy: 0
+weight: 0

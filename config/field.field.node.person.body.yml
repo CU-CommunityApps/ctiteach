@@ -1,0 +1,22 @@
+uuid: 79f25d71-67f4-4447-b1ea-c396788c2cf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.person
+  module:
+    - text
+id: node.person.body
+field_name: body
+entity_type: node
+bundle: person
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

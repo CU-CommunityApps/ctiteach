@@ -1,4 +1,4 @@
-uuid: d24d3ef3-a659-45d4-b877-b4dfc1116778
+uuid: 0e842d25-a5ff-42eb-9ac2-8c6b836c9432
 langcode: en
 status: true
 dependencies:
@@ -6,38 +6,36 @@ dependencies:
     - views.view.eb_files
   module:
     - views
-_core:
-  default_config_hash: kjPOTJt29zNEbL4kUf6DR6E0W_01O_lV-r6_UOaVFGc
-name: eb_files1
-label: 'Entity browser for files 1'
+name: ebfiles_single1
+label: 'Entity browser for ONE file'
 display: modal
 display_configuration:
   width: '650'
   height: '500'
-  link_text: 'Select files'
+  link_text: 'Select a file'
   auto_open: false
 selection_display: no_display
 selection_display_configuration: {  }
 widget_selector: single
 widget_selector_configuration: {  }
 widgets:
-  41e06a7e-9a14-4b78-8733-4ec13a702330:
+  d0714735-028e-47a9-8fef-94af6e1d6126:
     settings:
       upload_location: 'public://'
-      multiple: true
-      submit_text: 'Select files'
+      multiple: false
+      submit_text: 'Select file'
       extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
-    uuid: 41e06a7e-9a14-4b78-8733-4ec13a702330
+    uuid: d0714735-028e-47a9-8fef-94af6e1d6126
     weight: 1
     label: 'Upload a file'
     id: upload
-  2693384a-2d7a-46b5-ad80-8cd73e4201ea:
+  752eb688-80f1-456c-a392-cd5894c7ec03:
     settings:
       view: eb_files
       view_display: entity_browser_1
       submit_text: 'Select a file'
       auto_select: false
-    uuid: 2693384a-2d7a-46b5-ad80-8cd73e4201ea
+    uuid: 752eb688-80f1-456c-a392-cd5894c7ec03
     weight: 2
     label: 'Select a file'
     id: view
