@@ -1,15 +1,13 @@
-uuid: 35da8e51-75a2-4098-becc-498b8775d7dc
+uuid: f8e57b61-dd67-4c0c-ac79-420fca5d1127
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.news
-_core:
-  default_config_hash: YFOOXDA1pcVKf_Ne7yI6zdqX4q_ZToJYroeAgmQRtEk
-id: node.news.promote
+    - node.type.person
+id: node.person.promote
 field_name: promote
 entity_type: node
-bundle: news
+bundle: person
 label: 'Promoted to front page'
 description: ''
 required: false

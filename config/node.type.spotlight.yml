@@ -15,6 +15,6 @@ name: Spotlight
 type: spotlight
 description: 'Spotlight ctype description goes here... Spotlights have a featured image, and usually they''re used to promote (spotlight!) external content or another piece of content on this website.'
 help: ''
-new_revision: false
+new_revision: true
 preview_mode: 0
 display_submitted: false

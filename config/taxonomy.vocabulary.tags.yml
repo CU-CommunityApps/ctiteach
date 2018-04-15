@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: SMG7oJUBc_YfHvlxWNCwdo0nmKbASmTSrVtjAsVVeZM
-name: Tags
+name: 'Elements (and other tags)'
 vid: tags
 description: 'Tags vocab description goes here.'
 hierarchy: 0

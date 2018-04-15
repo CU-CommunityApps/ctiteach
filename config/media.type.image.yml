@@ -7,8 +7,8 @@ _core:
 id: image
 label: Image
 description: ''
-type: generic
 queue_thumbnail_downloads: false
 new_revision: false
-type_configuration: {  }
 field_map: {  }
+source_configuration: {  }
+source: generic

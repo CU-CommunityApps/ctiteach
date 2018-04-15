@@ -1,0 +1,29 @@
+uuid: 939966de-5d78-4a8a-9819-292df7649ba0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_people_filters
+    - node.type.person
+    - taxonomy.vocabulary.person_groupings
+id: node.person.field_people_filters
+field_name: field_people_filters
+entity_type: node
+bundle: person
+label: 'Filtering group'
+description: 'IF APPLICABLE, put this person into a preset filtering group.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      person_groupings: person_groupings
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

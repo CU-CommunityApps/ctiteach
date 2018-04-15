@@ -8,11 +8,13 @@ _core:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: ''
+  url: 'http://dev-ctiteach.pantheonsite.io/themes/custom/cwd_base_bootstrap/favicon.ico'
   use_default: true
 schemas:
   bootstrap: 8000
   cwd_base_bootstrap: 8000
+cwd_base_bootstrap_h2: 'Center for Teaching Innovation'
+cwd_base_bootstrap_h3: 'Subheading for the site goes here'
 features:
   comment_user_picture: true
   comment_user_verification: true
@@ -22,6 +24,4 @@ logo:
   path: ''
   url: ''
   use_default: true
-cwd_base_bootstrap_h2: 'The Gold Copy'
-cwd_base_bootstrap_h3: 'Subheading for the site goes here'
 table: ''
